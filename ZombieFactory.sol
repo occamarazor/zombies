@@ -9,6 +9,7 @@ contract ZombieFactory is Ownable {
     uint dnaModulus = 10 ** dnaDigits;
     uint cooldownTime = 1 days;
 
+    // Struct packing
     struct Zombie {
         string name;
         uint dna;
